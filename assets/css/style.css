@@ -5,7 +5,7 @@ body, h1, h2, p, ul {
 }
 
 body {
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
@@ -19,7 +19,7 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 22px 0;
+    padding: 22 px 0;
     text-align: center;
 }
 
