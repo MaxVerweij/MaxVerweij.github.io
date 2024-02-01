@@ -12,14 +12,14 @@ body {
 }
 
 .container {
-    width: 81%;
+    width: 80%;
     margin: 0 auto;
 }
 
 header {
     background-color: #333;
     color: #fff;
-    padding: 22px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
