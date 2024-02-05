@@ -19,7 +19,7 @@ navLinks.forEach(link => {
   navBar.appendChild(anchor);
 });
 
-navBar.appendChild(navList);
+navBar.appendChild(navLinks);
 
 // Append the navigation bar to the body of the document
 document.body.appendChild(navBar);
