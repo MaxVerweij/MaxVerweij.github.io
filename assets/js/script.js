@@ -1,3 +1,30 @@
+// Create an array of navigation links
+const navLinks = [
+  { text: 'Home', href: '#' },
+  { text: 'About', href: '#about' },
+  { text: 'Contact', href: '#contact' }
+];
+
+// Create the navigation bar
+const navBar = document.createElement('nav');
+const navList = document.createElement('ul');
+
+navLinks.forEach(link => {
+  const listItem = document.createElement('li');
+  const anchor = document.createElement('a');
+
+  anchor.textContent = link.text;
+  anchor.href = link.href;
+
+  listItem.appendChild(anchor);
+  navList.appendChild(listItem);
+});
+
+navBar.appendChild(navList);
+
+// Append the navigation bar to the body of the document
+document.body.appendChild(navBar);
+
 // Wait for the HTML content to be fully loaded
 document.addEventListener('DOMContentLoaded', function () {
 
