@@ -25,8 +25,11 @@ header {
 }
 
 nav {
-    margin-top: 20px;
-}
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+  }
+  
 
 nav a {
     text-decoration: none;
@@ -71,3 +74,8 @@ footer {
         font-size: 1.5em;
     }
 }
+
+
+
+/* NEW SECTION THAT MAY CONFLICT WITH SECTION ABOVE */
+

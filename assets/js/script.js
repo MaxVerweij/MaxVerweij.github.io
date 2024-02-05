@@ -1,23 +1,22 @@
-// Create an array of navigation links
-const navLinks = [
-  { text: 'Home', href: '#' },
-  { text: 'About', href: '#about' },
-  { text: 'Contact', href: '#contact' }
-];
-
 // Create the navigation bar
 const navBar = document.createElement('nav');
-const navList = document.createElement('ul');
 
+// JavaScript to dynamically generate navigation links
+// Define your navigation links here
+const navLinks = [
+  { text: 'Home', href: '#' },
+  { text: 'About', href: '#' },
+  { text: 'Services', href: '#' },
+  { text: 'Contact', href: '#' }
+  // Add more links as needed
+];
+
+// Generate navigation links dynamically
 navLinks.forEach(link => {
-  const listItem = document.createElement('li');
   const anchor = document.createElement('a');
-
   anchor.textContent = link.text;
   anchor.href = link.href;
-
-  listItem.appendChild(anchor);
-  navList.appendChild(listItem);
+  navBar.appendChild(anchor);
 });
 
 navBar.appendChild(navList);
