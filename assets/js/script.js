@@ -26,7 +26,7 @@ const targetDiv = document.querySelector('main');
 targetParent.insertBefore(navBar, targetDiv);
 
 // Append the navigation bar to the body of the document
-document.body.appendChild(navBar);
+// document.body.appendChild(navBar);
 
 // Wait for the HTML content to be fully loaded
 document.addEventListener('DOMContentLoaded', function () {
