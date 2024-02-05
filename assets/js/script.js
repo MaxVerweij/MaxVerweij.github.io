@@ -16,6 +16,7 @@ navLinks.forEach(link => {
   const anchor = document.createElement('a');
   anchor.textContent = link.text;
   anchor.href = link.href;
+  anchor.classList = ["underline-hover"]
   navBar.appendChild(anchor);
 });
 
