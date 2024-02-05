@@ -19,6 +19,7 @@ navLinks.forEach(link => {
   navBar.appendChild(anchor);
 });
 
+const targetParent = document.querySelector('body');
 const targetDiv = document.querySelector('main');
 
 // Step 4: Insert the new div ahead of the target div
