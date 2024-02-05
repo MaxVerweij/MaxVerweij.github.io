@@ -25,7 +25,7 @@ header {
 }
 
 nav {
-    background-image: url("paper.gif");
+    background-image: url("../../images/skyline.jpeg");
     background-color: #a5c5e11e;
     display: flex;
     justify-content: center;
