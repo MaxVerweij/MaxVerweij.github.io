@@ -19,6 +19,11 @@ navLinks.forEach(link => {
   navBar.appendChild(anchor);
 });
 
+const targetDiv = document.querySelector('main');
+
+// Step 4: Insert the new div ahead of the target div
+targetParent.insertBefore(navBar, targetDiv);
+
 // Append the navigation bar to the body of the document
 document.body.appendChild(navBar);
 

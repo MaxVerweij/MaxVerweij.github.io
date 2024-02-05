@@ -25,7 +25,7 @@ header {
 }
 
 nav {
-    background-color: #f2f2f2;
+    background-color: #f4f4f4;
     display: flex;
     justify-content: center;
   }
@@ -36,12 +36,12 @@ nav a {
     color: #333;
     padding: 10px;
     margin: 0 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    border-radius: 2px;
+    transition: background-color 0.5s ease;
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: #e2e4ed;
 }
 
 main {
@@ -75,7 +75,33 @@ footer {
     }
 }
 
-
-
 /* NEW SECTION THAT MAY CONFLICT WITH SECTION ABOVE */
 
+.underline-hover {
+      position: relative;
+      text-decoration: none;
+      color: #333;
+      transition: color 0.3s;
+      transition: background-color 0.5s ease;
+
+    }
+
+    .underline-hover::after {
+      content: '';
+      position: absolute;
+      width: 10px; /* Width of the underline */
+      height: 2px; /* Height/thickness of the underline */
+      background-color: #007bff; /* Color of the underline */
+      bottom: 5px; /* Distance below the text */
+      left: 50%;
+      transform: translateX(-50%);
+      transition: width 0.3s ease-in-out;
+    }
+
+    .underline-hover:hover {
+      color: #007bff; /* Color of the text on hover */
+    }
+
+    .underline-hover:hover::after {
+      width: 90%; /* Expand the underline to 100% on hover */
+    }
