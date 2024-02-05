@@ -25,7 +25,8 @@ header {
 }
 
 nav {
-    background-color: #f4f4f4;
+    background-image: url("paper.gif");
+    background-color: #a5c5e11e;
     display: flex;
     justify-content: center;
   }
@@ -86,22 +87,22 @@ footer {
 
     }
 
-    .underline-hover::after {
-      content: '';
-      position: absolute;
-      width: 10px; /* Width of the underline */
-      height: 2px; /* Height/thickness of the underline */
-      background-color: #007bff; /* Color of the underline */
-      bottom: 5px; /* Distance below the text */
-      left: 50%;
-      transform: translateX(-50%);
-      transition: width 0.3s ease-in-out;
-    }
+.underline-hover::after {
+  content: '';
+  position: absolute;
+  width: 10px; /* Width of the underline */
+  height: 2px; /* Height/thickness of the underline */
+  background-color: #007bff; /* Color of the underline */
+  bottom: 5px; /* Distance below the text */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.3s ease-in-out;
+}
 
-    .underline-hover:hover {
-      color: #007bff; /* Color of the text on hover */
-    }
+.underline-hover:hover {
+  color: #007bff; /* Color of the text on hover */
+}
 
-    .underline-hover:hover::after {
-      width: 90%; /* Expand the underline to 100% on hover */
-    }
+.underline-hover:hover::after {
+  width: 90%; /* Expand the underline to 100% on hover */
+}
