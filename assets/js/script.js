@@ -5,9 +5,9 @@ const navBar = document.createElement('nav');
 // Define your navigation links here
 const navLinks = [
   { text: 'Home', href: '#' },
-  { text: 'About', href: '#' },
-  { text: 'Services', href: '#' },
-  { text: 'Contact', href: '#' }
+  { text: 'About', href: 'pages/about.html' },
+  { text: 'Services', href: 'pages/services.html' },
+  { text: 'Contact', href: 'pages/contact.html' }
   // Add more links as needed
 ];
 
